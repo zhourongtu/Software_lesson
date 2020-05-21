@@ -31,7 +31,7 @@ create table course
 course_name		CHAR(30) NOT NULL,
 semester		CHAR(10) NOT NULL,
 academicYear	CHAR(4) NOT NULL,
-PRIMARY KEY(course_id, semester, academicYear)
+PRIMARY KEY(course_id)
 );
 
 create table courseChoosing
